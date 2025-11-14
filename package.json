@@ -21,6 +21,7 @@
   "homepage": "https://github.com/grontho69/clean-community-2#readme",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "mongodb": "^7.0.0"
   }
 }
