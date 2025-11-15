@@ -1,9 +1,11 @@
 {
   "name": "clean-community-2",
   "version": "1.0.0",
+  "types": "module",
   "description": "",
   "main": "server.js",
   "scripts": {
+    "dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
@@ -14,14 +16,17 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/grontho69/clean-community-2/issues"
   },
   "homepage": "https://github.com/grontho69/clean-community-2#readme",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
     "express": "^5.1.0",
-    "mongodb": "^7.0.0"
+    "mongodb": "^7.0.0",
+    "mongoose": "^8.19.4",
+    "react": "^19.2.0"
   }
 }
